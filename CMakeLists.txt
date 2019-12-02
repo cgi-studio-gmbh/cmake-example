@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
 
 # project name and supported languages
-project(example Fortran C CXX)
+project(example C CXX)
 
 # guard against in-source builds and bad build-type strings
 include(cmake/safeguards.cmake)
